@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    max-width: 1240px;
+    /* height: 100vh; */
+    border: 2px solid red;
+    margin: 0 auto;
+    padding: 0 20px;
+
+}
+
+button {
+    padding: 25px 72px;
+    border-radius: 50px;
+    border: none;
+    background-color: #054c73;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+}
+
+header nav ul {
+    display: flex;
+    align-items: center;
+    gap: 65px;
+    list-style-type: none;
+
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.banner {
+    height: 750px;
+    background-image: url(./assets/images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.banner .collection {
+    width: 560px;
+    background-color: #dfe9f4;
+    border-radius: 10px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(10%, -50%);
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+
+.banner .collaction span {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.banner .collection h1 {
+    font-size: 52px;
+    color: #054c73;
+
+}
+
+.banner .collection p {
+    font-size: 18px;
+    line-height: 38px;
+    color: #333;
+}
+
+.status {
+    background-color: #f2f5ff;
+    padding: 46px 0;
+}
+
+.status .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.status .content .box {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.colle h1 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.colle p {
+    font-weight: 200;
+    color: #666;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.colle .gallary {
+    height: 472px;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+
+.colle .gallary .top {
+    align-self: start;
+}
+
+.space .content{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.space .content .text__wrap{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.space .content .text__wrap h3{
+    font-size: 32px;
+}
+
+.space .content .text__wrap p{
+    color: #666;
+    line-height: 30px;
+    letter-spacing: 0;
+}
+
+.img__wrap{
+    position: relative;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    height: 874px;
+}
+
+.img__wrap img{
+    position: absolute;
+}
+
+.img__wrap .boxc{
+    border-radius: 50%;
+    background-color: #09513B;
+    width: 372px;
+    height: 372px;
+    position: absolute;
+    z-index: -1;
+    right: 30px;
+}
+
+.range .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    gap: 20px;
+}
+
+.range .content .cardbox{
+    display: flex;
+    gap: 20px;
+}
+
+.range .content .cardbox .card{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 60px;
+}
+
+hr{
+    background-color: gray;
+}
+
+.join .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.join .container{
+    background-color: #F2F5FF;
+}
+
+.join .content h1{
+    margin-top: 40px;
+    font-size: 32px;
+    text-align: center;
+}
+
+.join .content p{
+    color: #666;
+    line-height: 39px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.join .content .boxs{
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.join .content .boxs input{
+    padding: 0 20px 0 10px;
+}
+
+.join .content .boxs .Submit{
+    border-radius: 0;
+    padding: 20px 28px 20px 28px;
+    /* border: none; */
+    /* margin-bottom: 50px; */
+}
+
+footer{
+    background-color: #03344F;
+    color: white;
+}
+
+footer .text__wrap h1{
+    font-size: 24px;
+    line-height: 35px;
+}
+
+footer .content{
+    display: flex;
+}
+
+footer .content .img__wrap .imgs{
+    display: flex;
+}
+
+footer .content .img__wrap .imgs img{
+    width: 20%;
+}
+
+`
