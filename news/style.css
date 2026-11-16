@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.family {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2{
+    font-size: 36px;
+}
+
+p{
+    font-size: 36px;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 36px;
+    font-style: italic;
+}
+
+.text{
+    font-family: "Cherish", cursive;
+}

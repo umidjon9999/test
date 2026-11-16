@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* img{
+    width: 49px;
+
+} */
+
+.box {
+    width: 300px;
+    height: 300px;
+    border: 2px solid red;
+    text-align: justify;
+    overflow: hidden;
+    /* yashiradi */
+    overflow: auto;
+    /* scroll qiladi */
+    overflow: visible;
+    /* default*/
+    overflow: scroll;
+    /* scroll qiladi */
+}
