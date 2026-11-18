@@ -1,15 +1,223 @@
 * {
     padding: 0;
     margin: 0;
+    font-family: sans-serif;
     box-sizing: border-box;
 }
 
 .container {
     max-width: 1086px;
-    height: 100vh;
     width: 100%;
     border: 2px solid red;
     margin: 0 auto;
     padding: 0 20px;
 }
 
+.header__banner {
+    background-image: url(../assets/images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+}
+
+button {
+    padding: 15px 25px;
+    background-color: #FF6551;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login {
+    display: flex;
+    align-items: center;
+    justify-self: 15px;
+}
+
+.login .one {
+    background-color: transparent;
+}
+
+header {
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 21px;
+}
+
+header nav ul li:first-child {
+    margin-right: 66px;
+}
+
+header nav ul li h2 {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+}
+
+header nav ul li a {
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    text-decoration: none;
+}
+
+.header__banner .cources {
+    position: relative;
+}
+
+.header__banner .cources .content {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 400px;
+}
+
+.header__banner .cources .text__wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.header__banner .cources .text__wrap h5 {
+    color: #FFC652;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+}
+
+.header__banner .cources .text__wrap h1 {
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 80px;
+    letter-spacing: 0.2px;
+}
+
+.header__banner .cources .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    width: 100%;
+}
+
+.header__banner .cources .content .box {
+    background-color: #fff;
+    width: 270px;
+    /* border-radius: ; */
+    padding: 20px;
+    height: 240px;
+    box-shadow: 0 4px 4px gray;
+}
+
+.header__banner .cources .content .box .img{
+    width: 70px;
+    height: 76px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #B6D7FF;
+}
+
+.header__banner .cources .content .box .chizziq {
+    width: 50px;
+    height: 2px;
+    margin: 10px 0;
+    background-color: #E74040;
+}
+
+.header__banner .cources .content .box h2 {
+    margin-top: 20px;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+    color: #252B42;
+}
+
+.header__banner .cources .content .box p {
+    font-size: 14px;
+    color: #737373;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+}
+
+.header__banner .cources .content .three {
+    background-color: #FF6551;
+}
+
+.header__banner .cources .content .three h2,
+.header__banner .cources .content .three p {
+    color: white;
+}
+
+.header__banner .cources .content .three .chizziq{
+    background-color: #fff;
+}
+
+.watch .content{
+    padding: 10px;
+    margin: 200px 0 100px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.watch .content .text__wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 35px;
+}
+
+.watch .content .text__wrap h2{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0.2;
+    color: #252B42;
+}
+
+.watch .content .text__wrap p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+
+.watch .content .text__wrap .chizziq{
+    width: 94px;
+    height: 7px;
+    background-color: #E74040;
+}
+
+.watch .content .text__wrap .kk{
+    background-color: #fff;
+    color: #FF6551;
+}
